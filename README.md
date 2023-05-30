@@ -316,3 +316,8 @@ The data, ground truth graph, and the estimate will be stored in `X.csv`, `W_tru
 We thank the authors of the [NOTEARS repo][notears-repo] for making their code available. Part of our code is based on their implementation, specially the `utils.py` file and some code from their implementation of nonlinear models.
 
 [notears-repo]: https://github.com/xunzheng/notears
+
+
+
+python setup.py sdist bdist_wheel
+twine upload dist/*

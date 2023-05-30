@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open('README.md', 'r') as fh:
     README = fh.read()
 
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 setup(
     name='hcm_causal',
