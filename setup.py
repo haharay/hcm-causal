@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open('README.md', 'r') as fh:
     README = fh.read()
 
-VERSION = '0.1.2'
+VERSION = '0.2.0'
 
 setup(
     name='hcm_causal',
@@ -20,7 +20,10 @@ setup(
         'causal-learn',
         'python-igraph',
         'torch',
-        'tqdm'
+        'tqdm',
+        'sklearn',
+        'toolz',
+        'bayesian-optimization >= 1.1.0'
     ],
     url='https://github.com/haharay/hcm_causal',
     classifiers=[
@@ -32,6 +35,6 @@ setup(
              'bin/notears_nonlinear'],
     packages=find_packages(),
     include_package_data=True,
-    package_dir={'notears':'notears','dagma':'dagma','pytetrad':'pytetrad'},
+    package_dir={'notears':'notears','dagma':'dagma','pytetrad':'pytetrad','synthdid':'synthdid'},
     python_requires='>=3.9',
 )
