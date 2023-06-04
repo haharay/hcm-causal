@@ -388,3 +388,5 @@ sdid.plot(model="sdid")
 
 python setup.py sdist bdist_wheel
 twine upload dist/*
+hahray
+129)

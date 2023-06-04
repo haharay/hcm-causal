@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open('README.md', 'r') as fh:
     README = fh.read()
 
-VERSION = '0.2.0'
+VERSION = '0.2.1'
 
 setup(
     name='hcm_causal',
@@ -21,7 +21,7 @@ setup(
         'python-igraph',
         'torch',
         'tqdm',
-        'sklearn',
+        'scikit-learn',
         'toolz',
         'bayesian-optimization >= 1.1.0'
     ],
